@@ -1,0 +1,232 @@
+/* * {
+    border: 1px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+html{scroll-behavior:smooth}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    position: fixed;
+}
+
+.fa-spider {
+    color: white;
+    margin-top: 1px;
+    margin-right: 5px;
+    visibility: visible;
+}
+
+a span:hover {
+    display: inline-block;
+    color: red;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.loop-tile {
+    padding-top: 800px;
+}
+
+.credit-header {
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+}
+
+.who-am-I {
+    color: white;
+    text-align: center;
+    padding-bottom: 300px;
+    padding-top: 60px;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+.photo-loop {
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    padding-bottom: 570px;
+}
+
+.posed-wall {
+    position: absolute;
+    width: 300px;
+    left: -1000px;
+    animation: move 50s linear 0s infinite;
+    animation-iteration-count: infinite;
+}
+
+
+.posed-web {
+    position: absolute;
+    width: 300px;
+    left: -1000px;
+    animation: move 50s linear 7.1s infinite;
+    animation-iteration-count: infinite;
+}
+
+
+.standing-garage {
+    position: absolute;
+    width: 300px;
+    left: -1500px;
+    animation: move 50s linear 14.2s infinite;
+    animation-iteration-count: infinite;
+}
+
+.standing-middle {
+    width: 300px;
+    position: absolute;
+    width: 300px;
+    left: -2000px;
+    animation: move 50s linear 21.3s infinite;
+    animation-iteration-count: infinite;
+}
+
+.handstand {
+    width: 300px;
+    position: absolute;
+    width: 300px;
+    left: -2000px;
+    animation: move 50s linear 28.4s infinite;
+    animation-iteration-count: infinite;
+}
+
+.medium-shot {
+    width: 300px;
+    position: absolute;
+    width: 300px;
+    left: -2000px;
+    animation: move 50s linear 35.5s infinite;
+    animation-iteration-count: infinite;
+}
+
+.posed-garage {
+    width: 300px;
+    position: absolute;
+    width: 300px;
+    left: -2000px;
+    animation: move 50s linear 42.6s infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes move {
+    from {left: -500px;}
+    to {left: 100%;}
+}
+
+.photo-row {
+    justify-content: space-evenly;
+}
+
+.lightsaber {
+    width: 500px;
+    padding-top: 20px;
+}
+
+.shy-guy {
+    width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.web-swing {
+    width: 500px;
+}
+
+.contact-tile {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+
+.contact-box {
+    border: 5px solid red;
+    width: 600px;
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(32, 31, 31);
+    margin-left: 650px;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(32,31,31);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
